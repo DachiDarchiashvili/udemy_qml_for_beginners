@@ -1,0 +1,10 @@
+{
+    "files": [
+        "sources/main.py",
+        "qml/main.qml",
+        "qml/qtquickcontrols2.conf",
+        "qml/forms/HomeForm.ui.qml",
+        "qml/forms/Page1Form.ui.qml",
+        "qml/forms/Page2Form.ui.qml"
+    ]
+}
