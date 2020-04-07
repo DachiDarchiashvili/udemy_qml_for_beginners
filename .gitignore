@@ -74,3 +74,4 @@ venv.bak/
 
 # Custom
 project_structure/
+*.pyproject.user
