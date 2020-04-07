@@ -6,7 +6,7 @@ from PySide2.QtQml import QQmlApplicationEngine
 from PySide2.QtWidgets import QApplication
 
 if __name__ == '__main__':
-    # Gnome _ wayland
+    # Gnome with wayland
     os.environ["XDG_SESSION_TYPE"] = ""
     os.environ["QT_QPA_PLATFORM"] = "xcb"
 
@@ -20,5 +20,5 @@ if __name__ == '__main__':
     engine = QQmlApplicationEngine()
     engine.load(url)
 
-    # Execute and cleanup
+    # Execute
     app.exec_()
