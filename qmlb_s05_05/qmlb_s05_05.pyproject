@@ -2,6 +2,7 @@
     "files": [
         "sources/main.py",
         "qml/main.qml",
-        "qml/qtquickcontrols2.conf"
+        "qml/qtquickcontrols2.conf",
+        "qml/MyShape.qml"
     ]
 }
